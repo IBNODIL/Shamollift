@@ -3,6 +3,7 @@
   import Advantages from '../components/Advantages.vue';
   import OurProjects from '../components/OurProjects.vue';
   import SocialCites from '../components/SocialCites.vue';
+  import Gallery from '../components/Gallery.vue';
 </script>
 
 <template>
@@ -34,6 +35,10 @@
 
     <div class="grey-bg py-10 social-ciets">
       <SocialCites></SocialCites>
+    </div>
+
+    <div class="bg py-10 gallery">
+      <Gallery></Gallery>
     </div>
   </v-app>
 </template>
