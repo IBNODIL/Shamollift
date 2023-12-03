@@ -1,6 +1,6 @@
 <template>
   <div class="my-16 d-flex flex-column align-center">
-    <p class="text-h4 text-white mb-5">Наши преимущества</p>
+    <p class="text-h4 text-white mx-2 mb-5">Наши преимущества</p>
 
     <div class="d-flex flex-wrap align-center justify-center">
       <v-card class="card ma-4 pa-4 d-flex flex-column align-start">

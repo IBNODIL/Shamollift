@@ -2,6 +2,7 @@
   import Company from '../components/Company.vue';
   import Advantages from '../components/Advantages.vue';
   import OurProjects from '../components/OurProjects.vue';
+  import SocialCites from '../components/SocialCites.vue';
 </script>
 
 <template>
@@ -27,8 +28,12 @@
       <OurProjects></OurProjects>
     </div>
 
-    <div id="advantages" class="bg py-10 our-projects">
+    <div id="advantages" class="bg py-10 advantages">
       <Advantages></Advantages>
+    </div>
+
+    <div class="grey-bg py-10 social-ciets">
+      <SocialCites></SocialCites>
     </div>
   </v-app>
 </template>
@@ -42,6 +47,10 @@
   background-repeat: no-repeat;
   min-height: 70vh;
   background-size: cover;
+}
+
+.grey-bg{
+  background: #3E3E3E;
 }
 
 .hero-card{

@@ -21,7 +21,7 @@ export default {
         <v-toolbar-title class="mx-6 logo"><a href="#"><img height="40" src="./assets/img/logo.png" alt=""></a></v-toolbar-title>
 
         <div class="hidden-sm-and-down">
-          <v-list class="hidden-sm-and-down links mx-16 bg d-flex">
+        <v-list class="hidden-sm-and-down links mx-16 bg d-flex">
           <v-list-item class="hidden-sm-and-down">
             <v-btn class="hidden-sm-and-down"><a href="/#about-company">О Компании</a></v-btn>
           </v-list-item>
@@ -51,15 +51,15 @@ export default {
       >
         <v-list class="d-flex flex-column align-center">
           <v-list-item>
-            <v-btn class="bg"><a href="#about-company">О Компании</a></v-btn>
+            <v-btn class="bg"><a href="/#about-company">О Компании</a></v-btn>
           </v-list-item>
 
           <v-list-item>
-            <v-btn class="bg">Продукция</v-btn>
+            <v-btn class="bg"><a href="/#products">Продукция</a></v-btn>
           </v-list-item>
 
           <v-list-item>
-            <v-btn class="bg">Услуги</v-btn>
+            <v-btn class="bg"><a href="/#advantages">Услуги</a></v-btn>
           </v-list-item>
 
           <v-list-item>

@@ -58,7 +58,7 @@
   .card{
     width: 220px;
     padding: 10px !important;
-    margin: auto !important;
+    margin: 20px 10px !important;
   }
 }
 </style>
