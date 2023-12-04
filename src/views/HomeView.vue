@@ -4,6 +4,7 @@
   import OurProjects from '../components/OurProjects.vue';
   import SocialCites from '../components/SocialCites.vue';
   import Gallery from '../components/Gallery.vue';
+  import ContactMe from '../components/ContactMe.vue';
 </script>
 
 <template>
@@ -39,6 +40,10 @@
 
     <div class="bg py-10 gallery">
       <Gallery></Gallery>
+    </div>
+
+    <div class="bg py-10 contact-to-me">
+      <ContactMe></ContactMe>
     </div>
   </v-app>
 </template>
