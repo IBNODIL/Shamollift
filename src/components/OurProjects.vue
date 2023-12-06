@@ -61,9 +61,18 @@
 
 @media screen and (max-width: 960px) {
   .card{
-    width: 220px;
     padding: 10px !important;
     margin: 20px 10px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card{
+    width: 80%;
+  }
+
+  .card img{
+    width: 100%;
   }
 }
 </style>
