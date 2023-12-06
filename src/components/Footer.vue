@@ -3,7 +3,7 @@
     <div class="links-and-img d-flex align-center justify-space-between flex-wrap">
       <img height="40" src="../assets/img/logo.png" alt="">
       <div>
-        <v-list class="grey d-flex">
+        <v-list class="grey d-flex flex-wrap align-center justify-center">
           <v-list-item>
             <v-btn class="grey"><a href="/#about-company">О Компании</a></v-btn>
           </v-list-item>
