@@ -24,7 +24,7 @@
 </script>
 
 <style scoped>
-.this-map{
+iframe{
   height: 500px;
   width: 100%;
   border-radius: 20px;

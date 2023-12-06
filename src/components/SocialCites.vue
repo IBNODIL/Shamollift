@@ -3,10 +3,10 @@
     <div class="mx-4 hidden-sm-and-down"><p class="text-h4 text-white">Подпишитесь на нашу рассылку</p></div>
     <div class="mx-4 hidden-md-and-up"><p class="text-h6 text-white">Подпишитесь на нашу рассылку</p></div>
     <div class="my-5 d-flex align-center justify-center flex-wrap">
-      <v-btn class="link ma-4"> <img class="mr-2" src="../assets/img/Telegram.svg" alt=""> Telegram </v-btn>
-      <v-btn class="link ma-4"> <img class="mr-2" src="../assets/img/Instagram.svg" alt=""> Instagram </v-btn>
-      <v-btn class="link ma-4"> <img class="mr-2" src="../assets/img/Group.svg" alt=""> YouTube </v-btn>
-      <v-btn class="link ma-4"> <img class="mr-2" src="../assets/img/Facebook.svg" alt=""> Facebook </v-btn>
+      <v-btn class="link mx-10 my-6" rounded="lg"> <img class="mr-2" src="../assets/img/Telegram.svg" alt=""> Telegram </v-btn>
+      <v-btn class="link mx-10 my-6" rounded="lg"> <img class="mr-2" src="../assets/img/Instagram.svg" alt=""> Instagram </v-btn>
+      <v-btn class="link mx-10 my-6" rounded="lg"> <img class="mr-2" src="../assets/img/Group.svg" alt=""> YouTube </v-btn>
+      <v-btn class="link mx-10 my-6" rounded="lg"> <img class="mr-2" src="../assets/img/Facebook.svg" alt=""> Facebook </v-btn>
     </div>
   </div>
 </template>
