@@ -35,7 +35,7 @@ export default {
           </v-list-item>
 
           <v-list-item class="hidden-sm-and-down">
-            <v-btn class="hidden-sm-and-down linear-gradient-btn text-black">Bog'lanish</v-btn>
+            <v-btn class="hidden-sm-and-down linear-gradient-btn text-black"><a href="/#contact">Bog'lanish</a></v-btn>
           </v-list-item>
         </v-list>
         </div>
@@ -63,7 +63,7 @@ export default {
           </v-list-item>
 
           <v-list-item>
-            <v-btn class="linear-gradient-btn text-black">Bog'lanish</v-btn>
+            <v-btn class="linear-gradient-btn text-black"><a href="/#contact">Bog'lanish</a></v-btn>
           </v-list-item>
         </v-list>
       </v-navigation-drawer>

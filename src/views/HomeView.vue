@@ -5,6 +5,7 @@
   import SocialCites from '../components/SocialCites.vue';
   import Gallery from '../components/Gallery.vue';
   import ContactMe from '../components/ContactMe.vue';
+  import Footer from '../components/Footer.vue'
 </script>
 
 <template>
@@ -42,8 +43,12 @@
       <Gallery></Gallery>
     </div>
 
-    <div class="bg py-10 contact-to-me">
+    <div id="contact" class="bg py-10 contact-to-me">
       <ContactMe></ContactMe>
+    </div>
+
+    <div class="grey-bg footer">
+      <Footer></Footer>
     </div>
   </v-app>
 </template>
